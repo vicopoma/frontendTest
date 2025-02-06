@@ -1,0 +1,112 @@
+/* modal alerts */
+.ant-modal-confirm .ant-modal-body {
+  padding: 26px 24px 20px;
+}
+
+.info-modal {
+  .ant-modal-content {
+    background-color: #F0F4F6;
+    border-radius: 6px;
+    border: 1px solid var(--blue-dark);
+  }
+
+  .ant-btn {
+    color: var(--blue-dark);
+    background-color: #fff;
+    border-color: var(--blue-dark);
+  }
+
+  .ant-btn:hover, .ant-btn:focus {
+    color: var(--blue-dark);
+    background-color: #fff;
+    border-color: var(--blue-dark);
+  }
+
+  .ant-modal-confirm-body > .anticon {
+    float: left;
+    margin-right: 16px;
+    font-size: 22px;
+    color: var(--blue-dark) !important;
+  }
+}
+
+.success-modal {
+  .ant-modal-content {
+    background-color: #E9F1EB;
+    border-radius: 6px;
+    border: 1px solid var(--green-dark);
+  }
+
+  .ant-btn {
+    color: var(--green-dark);
+    background-color: #fff;
+    border-color: var(--green-dark);
+  }
+
+  .ant-btn:hover, .ant-btn:focus {
+    color: var(--green-dark);
+    background-color: #fff;
+    border-color: var(--green-dark);
+  }
+
+  .ant-modal-confirm-body > .anticon {
+    float: left;
+    margin-right: 16px;
+    font-size: 22px;
+    color: var(--green-dark) !important;
+  }
+}
+
+.error-modal {
+  .ant-modal-content {
+    background-color: #F5EBE8;
+    border-radius: 6px;
+    border: 1px solid var(--red);
+  }
+
+  .ant-btn {
+    color: var(--red);
+    background-color: #fff;
+    border-color: var(--red);
+  }
+
+  .ant-btn:hover, .ant-btn:focus {
+    color: var(--red);
+    background-color: #fff;
+    border-color: var(--red);
+  }
+
+  .ant-modal-confirm-body > .anticon {
+    float: left;
+    margin-right: 16px;
+    font-size: 22px;
+    color: var(--red) !important;
+  }
+}
+
+.warning-modal {
+  .ant-modal-content {
+    background-color: #F2EBE2;
+    border-radius: 6px;
+    border: 1px solid #FF9200;
+  }
+
+  .ant-btn {
+    color: #FF9200;
+    background-color: #fff;
+    border-color: #FF9200;
+  }
+
+  .ant-btn:hover, .ant-btn:focus {
+    color: #FF9200;
+    background-color: #fff;
+    border-color: #FF9200;
+  }
+
+  .ant-modal-confirm-body > .anticon {
+    float: left;
+    margin-right: 16px;
+    font-size: 22px;
+    color: #FF9200 !important;
+  }
+}

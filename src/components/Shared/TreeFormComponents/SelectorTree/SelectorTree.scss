@@ -1,0 +1,193 @@
+@import 'src/index';
+@import 'src/scss/constants/colors.scss';
+@import 'src/scss/commons';
+
+.filter-menu {
+  min-height: 350px;
+  min-width: auto;
+  position: absolute;
+  z-index: 8;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -1px 4px 17px -3px rgba(91, 91, 91, 0.75);
+  -webkit-box-shadow: -1px 4px 17px -3px rgba(91, 91, 91, 0.75);
+  -moz-box-shadow: -1px 4px 17px -3px rgba(91, 91, 91, 0.75);
+}
+
+.filter-menu-head {
+  min-height: 40px;
+  padding: 10px 10px 5px;
+  border-bottom: 0.5px solid #CBCBCB;
+
+  .button-apply {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .button-apply-reverse {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .select-all-reverse {
+    position: absolute;
+    top: 10px;
+    right: 70px;
+    width: 100px;
+    cursor: pointer;
+    text-align: center;
+  }
+}
+
+.filter-menu-body {
+  display: flex;
+
+  .filter-menu-select-first {
+    min-height: 120px;
+    max-height: 312px;
+    min-width: 120px;
+    max-width: 200px;
+    flex-direction: column;
+    padding: 6px -1px 6px 0px;
+    overflow-y: auto;
+
+    .check-filter {
+      height: 30px;
+      min-width: 108px;
+      max-width: 160px;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 4px 10px 4px 14px;
+      cursor: pointer;
+
+      span {
+        color: var(--blue-dark);
+      }
+    }
+
+    .check-filter-item {
+      margin-left: 6px;
+    }
+
+    .check-filter.selected {
+      background-color: #dceefa;
+    }
+  }
+
+
+  .filter-menu-select-second {
+    min-height: 312px;
+    max-height: 312px;
+    min-width: 190px;
+    max-width: 340px;
+    background-color: #dceefa;
+    padding: 6px 14px 6px 14px;
+    overflow-y: auto;
+
+    .check-filter {
+      height: 30px;
+      min-width: 108px;
+      max-width: 340px;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 4px 0px 4px 0px;
+
+      span {
+        color: var(--blue-dark);
+      }
+    }
+
+    .check-filter-item {
+      margin-left: 6px;
+    }
+  }
+
+  .filter-menu-select-all {
+    min-height: 34px;
+    max-height: 34px;
+    min-width: 120px;
+    max-width: 200px;
+    background-color: #dceefa;
+    padding: 6px 14px 6px 14px;
+    overflow-y: auto;
+  }
+}
+
+.dropdown-menu-container {
+  // float: left;
+  // color: var(--blue-dark);
+  // font-family: $base-font-family;
+
+  .dropdown-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 8px;
+    color: gray;
+    background: white;
+    border: 1px solid var(--gray);
+    border-radius: 3px;
+    height: 25px;
+    font-family: var(--roboto);
+
+    .button-icon {
+      margin-left: -10px;
+      margin-right: 8px;
+    }
+
+    .button-arrow {
+      margin-left: 10px;
+    }
+  }
+
+  .dropdown-menu {
+    background: white;
+    margin: 0px 0px 0px 0px;
+    list-style-type: none;
+    padding: 5px 5px 5px 5px; // top right botton left
+    position: fixed;
+    z-index: 5;
+    min-height: 200px;
+    max-height: 1000px;
+    min-width: 180px;
+    height: auto;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 4px var(--gray);
+    box-shadow: 0 0 4px var(--gray);
+
+    .dropdown-menu-containerItem {
+      position: absolute;
+      display: block;
+      border-radius: 4px;
+      top: 0;
+      text-align: left;
+      min-width: 100px;
+      left: 100%;
+      z-index: 5;
+    }
+
+    .dropdown-menu-item {
+      white-space: nowrap;
+      list-style: none;
+      padding: 5px;
+    }
+  }
+}
+
+

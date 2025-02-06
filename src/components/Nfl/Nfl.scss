@@ -1,0 +1,43 @@
+.redirect-nfl {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 35px 20px;
+  align-items: center;
+
+  h5 {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--blue-dark);
+  }
+
+  h4 {
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: var(--gray-dark);
+  }
+}
+
+.redirect-img
+img {
+  margin: 0px 10px;
+}
+
+.redirect-nfl-header {
+  background-color: var(--blue-dark);
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.redirect-nfl-body {
+  min-height: auto;
+  background-color: var(--blue-light);
+  padding: 20px 38px;
+  border-radius: 15px;
+  margin-top: 30px;
+}

@@ -1,0 +1,112 @@
+// @import '../../constants/contants.scss';
+@import './../../scss/constants/colors.scss';
+
+.button-back {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+}
+
+.button-exit {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+}
+
+.welcome_body {
+  padding: 0px 50px;
+  height: 293px;
+
+  .ant-form-item-explain, .ant-form-item-extra {
+    min-height: 0px;
+  }
+
+  img {
+    display: flex;
+    margin: 35px auto;
+  }
+
+  p {
+    text-align: center;
+    margin-bottom: 2px;
+  }
+
+  .welcome_title {
+    margin-bottom: 8px;
+    text-align: center;
+  }
+}
+
+.welcome_layout {
+  width: auto !important;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .ant-modal-content {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 405px;
+    border-radius: 3px 40px 3px 40px;
+    padding: 30px;
+  }
+
+  .welcome_icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .welcome_icons img {
+    margin-bottom: 20px;
+  }
+
+  .ant-divider-vertical {
+    border-left: 1px solid black;
+    height: 16.9em;
+  }
+
+  .welcome_right {
+    align-items: center;
+    justify-content: center;
+
+    .welcome_title {
+      color: var(--blue-dark);
+      font-weight: bold;
+      display: block;
+    }
+
+    .ant-form-item {
+      margin-bottom: 10px;
+      border-radius: 7px;
+    }
+
+    .ant-btn {
+      background-color: var(--green-dark);
+      width: 100%;
+      border-radius: 7px;
+      color: white;
+    }
+
+  }
+
+  .ant-steps {
+    margin-top: 26px;
+    padding: 0px 33px;
+  }
+
+  .ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+    background: var(--blue-dark);
+  }
+
+  .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+    background: var(--blue-dark);
+  }
+
+  .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-tail::after {
+    background-color: var(--blue-dark);
+  }
+}

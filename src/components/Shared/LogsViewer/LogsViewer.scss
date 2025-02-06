@@ -1,0 +1,10 @@
+.log-viewer {
+  background: black;
+  min-height: 20px;
+  max-height: calc(100vh - 465px);
+  overflow-y: auto;
+  overflow-x: auto;
+  font-family: monospace;
+  color: white;
+  padding: 10px;
+}

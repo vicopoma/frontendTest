@@ -1,0 +1,125 @@
+.back_login {
+  height: 100vh;
+  background-color: rgb(1, 51, 105);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  padding: 35px;
+
+  .back_login_img {
+    position: absolute;
+    height: 109vh;
+    right: calc(100vw - 45%);
+  }
+
+  .card_login {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    //width: 800px;
+    height: auto;
+    min-height: 304px;
+    border-radius: 3px 40px 3px 40px;
+    padding: 50px;
+    position: relative;
+
+    h4 {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--blue-dark);
+    }
+
+    .login-icons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .login-icons img {
+      margin-bottom: 20px;
+    }
+  }
+
+  .login-alerts {
+    font-size: 12px;
+    position: absolute;
+    bottom: -20px;
+    left: 12px;
+    color: #ff4d4f;
+    overflow: auto;
+    word-break: keep-all;
+    width: max-content;
+  }
+
+  .ant-input-affix-wrapper {
+    margin-bottom: 0px;
+  }
+
+  .login_input {
+    margin-bottom: 25px;
+    position: relative;
+  }
+
+  .icon-google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon-google img {
+    margin-right: 8px;
+  }
+
+  .footer_login {
+    display: flex;
+    align-items: initial;
+    position: absolute;
+    right: 5px;
+    bottom: -70px;
+    color: #FFF;
+  }
+
+  .footer_login img {
+    height: 36px;
+    margin-left: 16px;
+  }
+}
+
+/* responsive small view */
+@media screen and (max-width: 600px) {
+  .sidebar {
+    z-index: 16;
+  }
+  .back_login .card_login {
+    background-color: white;
+    width: auto;
+    height: auto;
+    border-radius: 3px 40px 3px 40px;
+    padding: 35px;
+    position: relative;
+  }
+}
+
+//button-okta
+.login-form-button {
+  background-color: var(--white);
+  border: 1px solid #007DC0;
+  border-radius: 3px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.login-form-button:hover, .login-form-button:focus, .login-form-button:active, .login-form-button.active {
+  background-color: var(--white);
+  border: 1px solid #007DC0;
+}
+
+.okta-sign-in {
+  margin: 5px 0px !important;
+  font-size: 11px !important;
+  color: var(--blue-dark) !important;
+}

@@ -1,0 +1,85 @@
+
+.player-assign-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  min-width: 269px;
+  background-color: transparent;
+  padding: 9px 13px;
+/*position: relative;*/
+  overflow: hidden;
+
+  .bg-play {
+    position: absolute;
+    z-index: 0;
+    height: 135px;
+  }
+
+  h1 {
+    color: #013369 !important;
+    font-size: 1rem !important;
+    margin-right: 11px;
+    margin-bottom: 0px !important;
+    z-index: 4;
+    position: relative;
+    font-weight: bold;
+  }
+
+  h2 {
+    color: #013369 !important;
+    font-size: 1rem !important;
+    font-weight: bold;
+    margin-right: 11px;
+    margin-bottom: 0px !important;
+    z-index: 4;
+    position: relative;
+  }
+
+  h4 {
+    font-size: 18px !important;
+    margin-right: 11px;
+    margin-bottom: 0px !important;
+    z-index: 4;
+    position: relative;
+    font-weight: bold;
+  }
+
+  h5 {
+    color: #013369 !important;
+    font-size: 1rem !important;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-bottom: 0px !important;
+    z-index: 4;
+    position: relative;
+  }
+}
+
+.player-name {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.player-name-not-assigned {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.assign-team-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}

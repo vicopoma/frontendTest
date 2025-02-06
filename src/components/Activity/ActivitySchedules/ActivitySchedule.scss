@@ -1,0 +1,63 @@
+.activity-note-container {
+  position: fixed;
+  background-color: rgba(128, 128, 128, 0.548);
+  overflow: hidden;
+  height: 83%;
+  width: 98%;
+  z-index: 6; 
+}
+
+.activity-note {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 7;
+  width: 590px;
+  height: 260px;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  border: solid 1px black;
+  padding: 29px;
+  .note-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--blue-dark);
+    margin-left: 6px;
+    margin-top: 3px;
+  }
+  .ant-input {
+    padding-right: 27px;
+  }
+  .note {
+    resize: none;
+    margin-top: 11px;
+    height: 100px;
+    span{
+      margin-top: 21px;
+      svg {
+        height: 1.5em;
+        width: 1.5em;
+      }
+    }
+  }
+  .btn-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+    .btn {
+      width: 130px;
+    }
+    .btn-gray {
+      background: var(--blue-light);
+      // border: 1px solid var(--blue-dark);
+      
+      border-radius: 3px;
+      font-weight: 400;
+      font-size: 13px;
+      color: var(--blue-dark);
+    }
+  }
+}

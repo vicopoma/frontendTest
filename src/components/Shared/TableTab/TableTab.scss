@@ -1,0 +1,44 @@
+.first-level-header-tt {
+  background: var(--white);
+  margin-bottom: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+  border-radius: 5px;
+  .ant-collapse-header {
+    padding: 10px;
+    height: 65px;
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    .ant-collapse-arrow {
+      display: none !important;
+    }
+  }
+
+  .ant-collapse-content-box {
+    background: var(--blue-light);
+  }
+
+  .ant-collapse {
+    // background: var(--white);
+    border: none;
+  }
+
+  .second-level-header {
+    background: var(--blue-light);
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 6px;
+    .ant-collapse-content {
+      background: var(--blue-light);
+      // min-height: 400px;
+    }
+  }
+  .custom-table .custom-table-tbody > tr > td {
+    border-bottom: 0;
+  } 
+}
+
+.collapse-tt > .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  padding: 0;
+}

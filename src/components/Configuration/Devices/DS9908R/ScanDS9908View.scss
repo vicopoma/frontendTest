@@ -1,0 +1,61 @@
+.scan-device-ds9908r {
+  padding: 20px 20px 0 20px;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  position: relative;
+
+  label {
+    color: var(--blue-dark);
+    font-weight: bold;
+  }
+
+  .ant-table.ant-table-bordered tbody > tr > td {
+    border-right: none;
+    border-spacing: 0;
+  }
+}
+
+.drawer_config {
+  h5 {
+    color: var(--green);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 3px;
+  }
+
+  .drawer_body_config {
+    background-color: var(--blue-light);
+    padding: 20px 30px 25px 30px;
+    border-radius: 11px;
+    margin: 13px 0;
+
+    .ant-form-item {
+      margin-bottom: 4px !important;
+    }
+
+    label {
+      color: var(--blue-dark);
+      font-weight: bold;
+    }
+
+    .ant-switch-checked {
+      background-color: var(--green-dark);
+    }
+
+  }
+
+  .barcode-number {
+    display: flex;
+
+    span {
+      color: var(--blue-dark);
+      font-weight: 500;
+      padding-right: 10px;
+    }
+
+    p {
+      margin: 0px;
+      font-weight: 600;
+    }
+  }
+}

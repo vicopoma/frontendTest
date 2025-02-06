@@ -1,0 +1,39 @@
+/* device-background */
+.bg-device01 {
+  height: calc(100vh - 65px);
+  overflow: hidden;
+  position: relative;
+
+  .img-bg-01 {
+    height: 99vh;
+    position: absolute;
+    left: -17%;
+  }
+
+  .img-bg-02 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 72%;
+    }
+  }
+}
+
+.bg-device03 {
+  padding-left: 14px;
+
+  h2 {
+    margin-top: 18px;
+    color: var(--blue-dark);
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  img {
+    width: 66px;
+  }
+}
+

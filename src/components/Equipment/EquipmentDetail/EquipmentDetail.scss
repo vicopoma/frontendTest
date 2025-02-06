@@ -1,0 +1,248 @@
+// drawer header equipment
+
+.drawer-header-equipment {
+  margin: -20px 20px 0px 20px !important;
+
+}
+
+.hr-separator {
+  border-top: 1px solid gray;
+  margin: auto;
+  margin-left: 2% !important;
+  opacity: 40%;
+  width: 95%;
+}
+
+.icon-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .icon-header-right {
+    margin-top: 5px;
+    width: 85px;
+
+    .current-equipment-parent {
+      border-radius: 5px;
+      display: grid;
+      background-color: #E8F0F4;
+      font-size: 10px;
+      justify-content: center;
+    }
+
+    .current-equipment-child {
+      font-size: 14px;
+      background-color: white;
+      border-bottom-style: solid;
+      border-bottom-color: #E8F0F4;
+    }
+  }
+}
+
+.drawer-body-equipment {
+  margin: 5px 20px 10px 20px;
+}
+
+.info_body_back {
+  background-color: var(--white);
+  padding: 10px 10px;
+  border-radius: 5px;
+  height: auto;
+
+  .in-row {
+    display: flex;
+    .info-icon {
+      display: flex;
+      justify-content: center;
+    }
+
+    .info-title {
+      font-weight: bold;
+      color: var(--blue-dark);
+      font-size: small;
+    }
+
+    .info-data {
+      color: var(--blue-dark);
+      font-size: large;
+    }
+
+    .info-tag {
+      font-weight: bold;
+      font-size: large;
+      color: var(--green-dark);
+      padding-top: 12px;
+    }
+
+    div {
+      margin-right: 25px;
+    }
+  }
+}
+
+.search-nocsae {
+  color: var(--blue-dark);
+  font-weight: 600;
+}
+
+.ant-collapse {
+  background: var(--blue-light);
+  border: none;
+}
+
+.first-level-header {
+  background: var(--white);
+  margin-bottom: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+  border-radius: 5px;
+  .ant-collapse-header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    .anticon {
+      display: none !important;
+    }
+  }
+
+  .ant-collapse {
+    background: var(--white);
+    border: none;
+  }
+
+  .second-level-header {
+    background: var(--blue-light);
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 6px;
+    .ant-collapse-content {
+      background: var(--blue-light);
+      min-height: 400px;
+    }
+  }
+}
+
+.first-level {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+
+  .equipment-section {
+    display: inline-flex;
+    align-items: center;
+    .img-section {
+      margin-right: 8px;
+      min-width: 100px;
+      padding-left: 20px;
+      span {
+        font-size: 16px;
+        color: var(--gray-dark);
+        font-weight: 500;
+        position: relative;
+        left: -15px;
+      }
+    }
+    .eq-badge {
+      display: inline-flex;
+      color: var(--blue-dark);
+      align-items: center;
+      font-size: 11px;
+      .custom-badge {
+        width: auto;
+        min-width: 67px;
+        max-height: 27px;
+      }
+    }
+    .team-name {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--blue-dark);
+      margin-right: 10px;
+    }
+  }
+  .scan-section {
+    display: inline-flex;
+    color: var(--gray-dark);
+    font-size: 16px;
+    align-items: center;
+    label {
+      color: #007ABA;
+      font-weight: 600;
+      display: inline-block;
+      margin-left: 5px;
+    }
+    div {
+      margin-right: 6px;
+      width: auto;
+      min-width: 123px;
+      box-sizing: border-box;
+    }
+  }
+}
+
+.recertification-date {
+  input {
+    font-weight: bolder;
+  }
+}
+
+.eq-footer {
+  margin-left: 14px;
+}
+
+.reclaim-detail {
+  position: fixed;
+  left: 60px;
+  bottom: 60px;
+  background-color: 'blue';
+  font-size: 1.1em;
+  width: calc(550px);
+  padding: 10px;
+  border: 1px solid var(--blue-dark);
+  border-radius: 5px;
+  .reclaim-title {
+    font-weight: bold;
+    color: var(--green);
+    font-size: 1.1em;
+  }
+  .data-item {
+    display: flex;
+    width: auto;
+    .data-label {
+      font-weight: bold;
+      color: var(--blue-dark);
+      padding-right: 9px;
+    }
+  }
+  .button-group {
+    .button {
+      margin: 2px 4px;
+      font-weight: bold;
+      border: 1px solid var(--blue-antd);
+    }
+    .reclaim-button {
+      background-color: var(--green-dark);
+      border: var(--green-dark);
+      color: var(--white);
+      font-size: 13px;
+    }
+  }
+}
+
+.one-active-part {
+  color: black;
+  .ant-select-selection-item {
+    color:rgba(0, 0, 0, 0.65);
+  }
+}
+
+.drawer-open-button {
+  color: var(--blue-dark);
+  font-weight: 300;
+  text-decoration: underline; 
+  cursor: pointer;
+  display: flex;
+  align-items: center; 
+  margin: 5px;
+}

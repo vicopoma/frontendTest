@@ -1,0 +1,215 @@
+.container-loader-01 {
+  position: fixed;
+  text-align: center;
+  background-color: #ffffff7e;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1100;
+}
+
+.box-01:nth-child(2n-1) {
+  background-color: #013369b7;
+}
+
+.box-01 {
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+  /*margin:0 -4px -5px -2px;*/
+  transition: all .2s ease;
+  width: 30rem;
+  height: 150px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 700px) {
+  .box-01 {
+    width: 50%;
+  }
+
+  .box-01:nth-child(2n-1) {
+    background-color: inherit;
+  }
+
+  .box-01x:nth-child(4n), .box-01:nth-child(4n-3) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+}
+
+@media (max-width: 420px) {
+  .box-01 {
+    width: 100%;
+  }
+
+  .box-01:nth-child(4n), .box-01:nth-child(4n-3) {
+    background-color: inherit;
+  }
+
+  .box-01:nth-child(2n-1) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+}
+
+/* -------------- loader10 -------------- */
+
+.loader11:before {
+  background-image: url(/images/helmet-01.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -4rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 12px;
+  -webkit-animation: loader10g 1s ease-in-out infinite;
+  animation: loader10g 1s ease-in-out infinite;
+}
+
+.loader11 {
+  background-image: url(/images/shoulder-01.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  position: relative;
+  width: 3.5rem;
+  height: 3.5rem;
+  top: 30%;
+  border-radius: 12px;
+  -webkit-animation: loader10m 1s ease-in-out infinite;
+  animation: loader10m 1s ease-in-out infinite;
+}
+
+
+.loader11:after {
+  background-image: url(/images/cleat-01.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 4rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 10px;
+  -webkit-animation: loader10d 1s ease-in-out infinite;
+  animation: loader10d 1s ease-in-out infinite;
+}
+
+@-webkit-keyframes loader10g {
+  0% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  25% {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  50% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  75% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  100% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+}
+
+@keyframes loader10g {
+  0% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  25% {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  50% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  75% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  100% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+}
+
+@-webkit-keyframes loader10m {
+  0% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  25% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  50% {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  75% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  100% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+}
+
+@keyframes loader10m {
+  0% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  25% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  50% {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  75% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  100% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+}
+
+@-webkit-keyframes loader10d {
+  0% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  25% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  50% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  75% {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  100% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+}
+
+@keyframes loader10d {
+  0% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  25% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  50% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  75% {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  100% {
+    background-color: rgba(255, 255, 255, .2);
+  }
+}

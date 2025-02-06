@@ -1,0 +1,50 @@
+.site-tag-plus {
+  background: #E8F0F4;
+  border-style: dashed;
+}
+
+.edit-tag {
+  .ant-tag {
+    user-select: none;
+    width: auto;
+    background-color: var(--blue-light);
+    border: 1px solid var(--blue-dark);
+    color: var(--blue-dark);
+    margin-bottom: 1px;
+  }
+}
+
+.add-tag {
+  .ant-tag {
+    padding-left: 10px;
+    background-color: var(--white);
+    border: 1px dashed var(--blue-antd);
+    color: var(--blue-antd);
+    font-weight: 500;
+    width: 130px;
+    min-width: 130px;
+    max-width: 130px;
+    text-align: center;
+  }
+  .ant-tag:hover {
+    cursor: pointer;
+  }
+}
+
+.tag-input {
+  width: 130px;
+  min-width: 130px;
+  max-width: 130px;
+  margin-right: 8px;
+  vertical-align: top;
+}
+
+.tag-input-warning {
+  color: var(--gray-dark) !important;
+  font-size: 12px;
+}
+
+.tag-input-error {
+  color: var(--error-red) !important;
+  font-size: 12px;
+}

@@ -1,0 +1,12 @@
+.filters-layout {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+  width: 100%;
+  .sections {
+    display: inline-flex;
+    /* div {
+      margin-right: 8px;
+    } */
+  }
+}

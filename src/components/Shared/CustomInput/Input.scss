@@ -1,0 +1,60 @@
+.tag-input-search {
+  max-width: 550px;
+  .search-section {
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid var(--gray);
+    .search-button {
+      margin-right: 3px;
+      padding-left: 3px;
+      color: var(--blue-dark);
+    }
+    .ant-select-selector {
+      border-color: var(--white);
+    }
+    .ant-select-selector:hover {
+      border-color: var(--white);
+    }
+    .ant-select-focused.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+      border-color: var(--white);
+      border-width: 0px;
+      box-shadow: none;
+    }
+    .search-selector {
+      .ant-select {
+        border-radius: 5px;
+        border: 1.5px solid var(--gray);
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .button-main {
+    color: var(--blue-antd) ;
+    border-color: var(--blue-antd);
+  }
+
+
+}
+.save-section {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 11px;
+  .button-save {
+    width: 80px;
+    color: var(--white);
+    background: var(--blue-antd);
+    border-color: var(--blue-antd);
+    border-radius: 3px;
+  }
+
+  .button-cancel {
+    margin-right: 8px;
+    width: 80px;
+    color: var(--blue-dark);
+    border-color: var(--blue-dark);
+    border-radius: 3px;
+  }
+}

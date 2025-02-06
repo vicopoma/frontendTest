@@ -1,0 +1,26 @@
+.site-drawer-render-in-current-wrapper {
+  margin: 0;
+  position: relative;
+  height: 80%;
+  padding: 48px;
+  overflow: hidden;
+  text-align: center;
+  background: #fafafa;
+  border: 1px solid #ebedf0;
+  border-radius: 2px;
+}
+
+/* equipment-especialpart */
+.img-equip-parts {
+  display: flex;
+  max-height: 100px;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.img-equip-parts img {
+  position: fixed;
+  height: auto;
+  width: 100px;
+}

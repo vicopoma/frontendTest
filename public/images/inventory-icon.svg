@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="inventory-icon" transform="translate(-57 -70)">
+    <rect id="Rectangle_2957" data-name="Rectangle 2957" width="16.615" height="16.615" rx="2.594" transform="translate(57 70)" fill="#013c88"/>
+    <rect id="Rectangle_2958" data-name="Rectangle 2958" width="16.615" height="16.615" rx="2.594" transform="translate(76.385 89.385)" fill="#013c88"/>
+    <rect id="Rectangle_2959" data-name="Rectangle 2959" width="16.615" height="16.615" rx="2.594" transform="translate(57 106) rotate(-90)" fill="#013c88"/>
+    <path id="Path_3574" data-name="Path 3574" d="M90.406,70H78.978a2.593,2.593,0,0,0-2.593,2.594V84.022a2.593,2.593,0,0,0,2.593,2.593H90.406A2.593,2.593,0,0,0,93,84.022V72.594A2.594,2.594,0,0,0,90.406,70ZM90,83.615H79.385V73H90Z" fill="#013c88"/>
+  </g>
+</svg>

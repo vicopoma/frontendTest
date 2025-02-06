@@ -1,0 +1,651 @@
+[
+  {
+    "version":"Frontend 1.16.2-rc-202412161800, Backend 1.16.2-rc-202412161800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Maintainer role with the ability to modify practice hours for the last two weeks."
+    ]
+  },
+  {
+    "version":"Frontend 1.16.1-rc-202412111800, Backend 1.16.1-rc-202412111800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Admin user users can modify the hours of practice for the last two weeks."
+    ]
+  },
+  {
+    "version":"Frontend 1.16.0-rc-202411061800, Backend 1.15.3-rc-202411061800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Add FX9600 section in Configuration/Devices to show antennas status",
+      "Add: External API with antennas information"
+    ]
+  },
+  {
+    "version":"Frontend 1.15.2-rc-202410231800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Ability to distinguish between None and non-selection for equipment parts."
+    ]
+  },
+  {
+    "version":"Frontend 1.15.1-rc-202409201800, Backend 1.15.2-rc-202409271800",
+    "description": "Release Candidate",
+    "features": [
+      "Fix: Enable greyed part with only one active option and which has no selection",
+      "Fix: Do not show empty items in equipment history",
+      "Update: Validate model config field for helmet manufacturers"
+    ]
+  },
+  {
+    "version":"Frontend 1.15.0-rc-202408161800, Backend 1.15.0-rc-202408161800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Drawer to create Manufacturers and Equipment models"
+    ]
+  },
+  {
+    "version":"Frontend 1.14.4-rc-202408091800, Backend 1.14.6-rc-202408071800",
+    "description": "Release Candidate",
+    "features": [
+      "Update: Enable model config selection for VICIS models",
+      "Update: Upgrade F7 UR1 2.0 to 2024 model"
+    ]
+  },
+  {
+    "version":"Frontend 1.14.3-rc-202406181800, Backend 1.14.3-rc-202406181800",
+    "description": "Release Candidate",
+    "features": [
+      "Update: Last seen column is copied from a transferred equipment."
+    ]
+  },
+  {
+    "version":"Frontend 1.14.2-rc-202406031800, Backend 1.14.2-rc-202406031800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Game Worn Cleat functionality in Player section",
+      "Update: Schutt F7 UR1 2.0 2024 helmet",
+      "Update: Schutt F7 UR1 2.0 2024 helmet parts",
+      "Update: Game worn column added to Activity Equipment Scan report"
+    ]
+  },
+  {
+    "version":"Frontend 1.14.1-rc-202405171800, Backend 1.14.1-rc-202405171800, Reader 1.2.3-rc-202405171800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Game Worn Cleat functionality",
+      "Add: Default selection for parts with one option",
+      "Add: Default model config selection for VICIS models",
+      "Update: Practice Portal Timings"
+    ]
+  },
+  {
+    "version":"Frontend 1.13.3-rc-202403151800, Backend 1.13.3-rc-202403151800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Equipment Template view for zebra admins"
+    ]
+  },
+  {
+    "version":"Frontend 1.13.2-rc-202402291800",
+    "description": "Release Candidate",
+    "features": [
+      "Update: Redesign Message Alert"
+    ]
+  },
+  {
+    "version":"Frontend 1.13.1-rc-202402051800, Backend 1.13.1-rc-202402051800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Message Alert for all users"
+    ]
+  },
+  {
+    "version":"Frontend 1.12.3-rc-202401051800, Backend 1.12.4-rc-202401041800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Export all equipment for individual player"
+    ]
+  },
+  {
+    "version":"Frontend 1.12.3-rc-202401051800, Backend 1.12.4-rc-202401041800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Export all equipment for individual player"
+    ]
+  },
+  {
+    "version":"Frontend 1.12.2-rc-202312131800, Backend 1.12.3-rc-202312131800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Export for Apparel section for individual player"
+    ]
+  },
+  {
+    "version":"Frontend 1.12.1-rc-202311281800, Backend 1.12.1-rc-202311271800, Reader 1.2.2-rc-202311281800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Prefix 'ZNC' for tags"
+    ]
+  },
+  {
+    "version":"Frontend 1.12.0-rc-202311171800, Backend 1.12.0-rc-202311171800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Apparel section in Player View.",
+      "Add: Import/Export for Apparel section"
+    ]
+  },
+  {
+    "version":"Frontend 1.11.5-rc-202310261800, Backend 1.11.5-rc-202310261800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Column Player Position in Equipment view.",
+      "Add: Tag search component in Navbar"
+    ]
+  },
+  {
+    "version":"Frontend 1.11.4-rc-202309291800, Backend 1.11.3-rc-202309291800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Users can edit practices which were created in Virtual Locker app.",
+      "Add: Filter, sorting and export options for Users in Configuration tab."
+    ]
+  },
+  {
+    "version":"Frontend 1.11.3-rc-202309211800, Backend 1.11.2-rc-202309211800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Notes for Practices and Games",
+      "Add: Users can update Practices if they were created in Virtual Locker app"
+    ]
+  },
+  {
+    "version":"Frontend 1.11.2-rc-202309081800, Reader 1.2.2-rc-202309051800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Ability to open practices and games from calendar",
+      "Fix: Delete operation for equipments",
+      "Update: Extend end of game scan window for PHS portals"
+    ]
+  },
+  {
+    "version":"Frontend 1.11.1-rc-202308181800, Backend 1.11.1-rc-202308181800",
+    "description": "Release Candidate",
+    "features": [
+      "Update: Keep the DS9908R device always in active mode",
+      "Update: Updating 2023 Documentation and Links"
+    ]
+  },
+  {
+    "version":"Frontend 1.11.0-rc-202307141800, Backend 1.11.0-rc-202307141800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Multicheck action function for Equipment view: unassign",
+      "Add: Left/Right dropdown as a cleat option",
+      "Update: Clear out all ZTC tags from the app"
+    ]
+  },
+  {
+    "version":"Frontend 1.10.2-rc-202306281800, Backend 1.10.2-rc-202306281800",
+    "description": "Release Candidate",
+    "features": [
+      "Update: Scan Distribution report by game week"
+    ]
+  },
+  {
+    "version":"Frontend 1.10.1-rc-202306221800, Backend 1.10.1-rc-202306221800",
+    "description": "Release Candidate",
+    "features": [
+      "Update: Scan Distribution report includes games only"
+    ]
+  },
+  {
+    "version":"Frontend 1.10.0-rc-202306141800, Backend 1.10.0-rc-202306141800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Upload weekly Scan Distribution csv to NFL FTP",
+      "Add: NFL can pass a url to redirect to Virtual Locker page",
+      "Updadte: Create another button, allow users to edit Model year field"
+    ]
+  },
+  {
+    "version":"Frontend 1.9.3-rc-202305231800, Backend 1.9.3-rc-202305231800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Enable Helmet template download for OEM users",
+      "Add: Enable Helmet template import for OEM users",
+      "Add: Integrate with Adidas box information",
+      "Add: User can scan Adidas box barcodes to populate equipment information"
+    ]
+  },
+  {
+    "version":"Frontend 1.9.2-rc-202305021800, Backend 1.9.2-rc-202305021800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Users can autofill equipment fields scanning Adidas barcodes",
+      "Update: Import Adidas Cleat Information"
+    ]
+  },
+  {
+    "version":"Frontend 1.9.1-rc-202304121800, Backend 1.9.1-rc-202304121800, Reader 1.2.1-rc-202304121800",
+    "description": "Release Candidate",
+    "features": [
+      "Update: Unarchive equipment if it is scanned for a practice or game",
+      "Update: Player page, only display missing tag alert for active equipment",
+      "Update: Archive inactive equipment if not seen for twelve consecutive months"
+    ]
+  },
+  {
+    "version":"Frontend 1.9.0-rc-202302141800, Backend 1.9.0-rc-202302141800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Pulling back equipment process in Equipment view",
+      "Add: Pulling back equipment process in Player view",
+      "Add: Pulling back equipment process in Activity view",
+      "Add: Automatic transfer for equipments"
+    ]
+  },
+  {
+    "version":"Frontend 1.8.5-rc-202210111800, Backend 1.8.5-rc-202210111800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Filter for show filtered knee braces in games",
+      "Add: Raw Blink History view",
+      "Add: Raw Blink Sync to recover lost blink data"
+    ]
+  },
+  {
+    "version":"Frontend 1.8.4-rc-202209231800, Backend 1.8.4-rc-202209231800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Allow Zebra Admin user to edit equipment model",
+      "Add: Report with Individual Scans from Scan Distribution view",
+      "Add: Tag History report in Equipment view",
+      "Add: Slack notification for Redis connection errors"
+    ]
+  },
+  {
+    "version":"Frontend 1.8.3-rc-202209091800, Backend 1.8.3-rc-202209091800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Register Received from Recondition date as Recondition date",
+      "Update: Editable Recondition/Recertification date field",
+      "Update: Club Inventory report including Equipment Status"
+    ]
+  },
+  {
+    "version":"Frontend 1.8.2-rc-202209021800, Backend 1.8.2-rc-202209021800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Process for auto-reconnection with redis",
+      "Update: Filter for show all cleats in games",
+      "Update: Club Inventory report",
+      "Fix: Out for Recondition date validation in Equipment History"
+    ]
+  },
+  {
+    "version":"Frontend 1.8.1-rc-202208261800, Backend 1.8.1-rc-202208261800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Recondition date record in Equipment History",
+      "Add: Filter for show all cleats in games",
+      "Add: Process for cleaning cleats in games",
+      "Fix: Part selectors just show valid parts, except which coming from NOCSAE"
+    ]
+  },
+  {
+    "version":"Frontend 1.8.0-rc-202208191800, Backend 1.8.0-rc-202208191800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Tag Scans History table",
+      "Update: Enable Knee Braces in Scan Distribution",
+      "Update: Enable Supplemental Headgear in Scan Distribution",
+      "Update: Club Inventory report to include only updated Equipment",
+      "Update: Club Inventory report to include new Column"
+    ]
+  },
+  {
+    "version":"Frontend 1.7.3-rc-202207291800, Backend 1.7.3-rc-202207291800",
+    "description": "Release Candidate",
+    "features": [
+      "Update: Activity types allowed: Walk Through, On-Field Activity and Conditioning Only",
+      "Update: Recertification date of helmets using NOCSAE",
+      "Update: Remove Model Year field as Cleat requirement",
+      "Fix: Import/Export page Scroll"
+    ]
+  },
+  {
+    "version":"Frontend 1.7.2-rc-202207221800, Backend 1.7.2-rc-202207221800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Player Profile view, use equipment type icons as filters",
+      "Add: Player Profile view, add activity count column",
+      "Add: Fixed left column in all tables",
+      "Fix: OEMs Equipment imports allows the tag id field to be optional",
+      "Fix: DS9908R driver cannot to be downloaded from the application"
+    ]
+  },
+  {
+    "version":"Frontend 1.7.1-rc-202207081800, Backend 1.7.1-rc-202207081800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Multicheck action functions for Player Profile view: archive/unarchive, delete, out for recondition and received from recondition",
+      "Add: Multicheck action functions for Equipment view: archive/unarchive, delete, out for recondition and received from recondition",
+      "Add: Status column in Configuration: Parts and Equipment Model",
+      "Add: Temporary association of size for models of Shoulder Pads",
+      "Add: Recondition Status column in app and reports",
+      "Update: Turn off the FTP way of Importing Shoulder Pads"
+    ]
+  },
+  {
+    "version":"Frontend 1.7.0-rc-202207011800, Backend 1.7.0-rc-202207011800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Adding new equipment type Supplemental Headgear",
+      "Add: Adding Supplemental headgear on Activity section",
+      "Add: Adding Supplemental Headgear on Equipment section",
+      "Add: Adding Supplemental Headgear on Player section",
+      "Add: Synchronization of models for Supplemental Headgear with NFL Master Date",
+      "Add: Adding Supplemental Headgear to the activity EquipmentScan report",
+      "Add: Supplemental Headgears and Knee Braces to the reports",
+      "Fix: Cleats the Plate part shows a default value of Hex code",
+      "Update: Hex to ASCII and ASCII to Hex conversion algorithm"
+    ]
+  },
+  {
+    "version":"Frontend 1.6.0-rc-202206031800, Backend 1.6.0-rc-202206031800",
+    "description": "Release Candidate",
+    "features": [
+      "Fix: Capitalize model names in dropdown menu for Knee Braces",
+      "Fix: Edit/view button doesn't disappear in the tables while a column is selected.",
+      "Add: Generate activity equipment scan reports twice a day",
+      "Add: Knee Brace scans to NFL reports",
+      "Update: Column order in XTECH template"
+    ]
+  },
+  {
+    "version":"Frontend 1.5.1-rc-202205201800, Backend 1.5.1-rc-202205161800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: Sync to NFL Master Data for Knee Braces models and components",
+      "Add: Adding new parts for Shoulder Pads",
+      "Add: Adding Note and Last Seen columns to Player Profile for equipments",
+      "Add: Include Note column in OEM Equipment Template",
+      "Update: Updating 2022 Documentation and Links",
+      "Fix: ActivityEquipmentScan report includes all data"
+    ]
+  },
+  {
+    "version":"Frontend 1.5.1-rc-202205031800, Backend 1.5.1-rc-202205031800",
+    "description": "Release Candidate",
+    "features": [
+      "Add: download equipment by activity adding option to include players without scanned equipment",
+      "Add: Adding model config for vicis zero2-r models",
+      "Add: adding a new column in the equipment list to count the activities (Game or Practice) in which the equipment was used",
+      "Change: Change in the activity history section of an equipment to separate by game or practice",
+      "Fix: mapping of helmet component names, for better user understanding"
+    ]
+  },
+  {
+    "version":"Frontend 1.5.0-rc-202204131800, Backend 1.5.0-rc-202204131800",
+    "description": "Release Candidate",
+    "features": [
+      "Upgrade: Java 8 to 11",
+      "Upgrade: Postgres 9.6 to 12",
+      "Add: Feature NOCSAE Helmet Tracker",
+      "Add: Adding search by tag id when creating helmets",
+      "Add: OEM users have access to the devices section",
+      "Fix: Search by scanned tag in equipment list",
+      "Fix: Correct deployment of plates for cleats",
+      "Fix: Import equipment of user OEM fixed"
+    ]
+  },
+  {
+    "version":"Frontend 1.4.1-rc-202103112000, Backend 1.4.1-rc-202103112000",
+    "description": "Release Candidate",
+    "features": [
+      "Fix: About created date, Modified date, Created By and Last Updated By to import OEM files",
+      "Fix: Recondition and Recertification date for shoulder pads and helmets",
+      "Change: About OEM dashboard to do not include archived equipment",
+      "Change: About status from Warning to Error for OEM files imported with bad format",
+      "Change: About scan distribution circle color around Equipment to Match Activity",
+      "Extra tool: To manage new seasons",
+      "Add: Validation for OEM user in mobile app(do not login)"
+    ]
+  },
+  {
+    "version":"Frontend 1.4.0-rc-202102251600, Backend 1.4.0-rc-202102251600, Reader 1.1.0-rc-202102251600",
+    "description": "Release Candidate",
+    "features": [
+      "Add feature OEM roles(OEM admin and OEM team user)",
+      "Add feature OEM Import",
+      "Add feature OEM download template",
+      "Add feature OEM dashboard stats view",
+      "Add feature OEM equipment view",
+      "Add feature OEM equipments list view",
+      "Add feature Partition Raw blink"
+    ]
+  },
+  {
+    "version":"Frontend 1.3.3-rc-202201191400, Backend 1.3.3-rc-202201130800",
+    "description": "Release Candidate",
+    "features": [
+      "Improve filter in Equipment view",
+      "Improve filter in Player view",
+      "Improve filter in Activity view(Scan and Player)",
+      "Improve in notification view progress bar(validation by user or if it has processes done)",
+      "Enabling 'Tag ID' optional in OEM Imports"
+    ]
+  },
+  {
+    "version":"Frontend 1.3.2-rc1-202201182000, Backend 1.3.2-rc1-202201182000",
+    "description": "Release Candidate",
+    "features": [
+      "Selector week and season has solved to support PostSeason"
+    ]
+  },
+  {
+    "version":"Frontend 1.3.2-rc-202111251200, Backend 1.3.2-rc-202111251200",
+    "description": "Release Candidate",
+    "features": [
+      "Fix for issue cleat didn't show up size part for some models",
+      "Add Knee brace side(LEFT or RIGHT) in table and csv report (Activity view)"
+    ]
+  },
+  {
+    "version":"Frontend 1.3.1-rc-202111191800, Backend 1.3.1-rc-202111191800",
+    "description": "Release Candidate",
+    "features": [
+      "Fix: Total counts in scan distribution view(team and venues)",
+      "Add option 'All' in active/inactive selector",
+      "Add reset buton in scan distribution",
+      "Club Key field's fixed in 'Activity Equipment scan' report"
+    ]
+  },
+  {
+    "version":"Frontend 1.3.0-rc-202111122000, Backend 1.3.0-rc-202111122000, Reader 1.0.7-rc-202111122000",
+    "description": "Release Candidate",
+    "features": [
+      "Add Scan distribution view by Team and venue(filters, list of scans, stats by type of scans, and download csv)",
+      "Add button to create new equipment in 'Activity Player View'",
+      "Fix: Issue to sort by jersey number in activity view and player view for roster player",
+      "Fix: Issue to populate roster player for Game and Practice activity",
+      "Add active/inactive filter in activity view for Practice activity",
+      "Change time zone for date fields in csv reports to UTC Time zone"
+    ]
+  },
+  {
+    "version":"Frontend 1.2.2-rc-202111052000, Backend 1.2.2-rc-202111052000",
+    "description": "Release Candidate",
+    "features": [
+      "Add week filter for Game/Practice activity",
+      "Fix: For the process to import OEM files from FTP server",
+      "Fix: For counts issue the total scans by device didn't sum up to total by equipment type in activity page for scan distribution (Tooltip)"
+    ]
+  },
+  {
+    "version":"Frontend 1.2.1-rc-202110262000, Backend 1.2.1-rc-202110262000",
+    "description": "Release Candidate",
+    "features": [
+      "Create Multiple equipment",
+      "Fix Assigned column on Equipment view",
+      "Tooltip for scan distribution"
+    ]
+  },
+  {
+    "version":"Frontend 1.2.0-rc-202110082000, Backend 1.2.0-rc-202110082000 Reader 1.0.6-rc-202110222000",
+    "description": "Release Candidate",
+    "features": [
+      "New feature 'Session History'",
+      "New feature 'Equipment archived'",
+      "New feature 'Player History'",
+      "New feature 'Auto equipment transfer between teams'",
+      "New feature Process to Auto generate  Tags for cleats using this sequences 'ZCT99'"
+    ]
+  },
+  {
+    "version":"Frontend 1.1.7-rc-202109301900, Backend 1.1.6-rc-202109301900 Reader 1.0.5-rc-202109301900",
+    "description": "Release Candidate",
+    "features": [
+      "Fix tag sort by status is failing in 'Tag' view",
+      "Fix Equipment history on UI",
+      "Fix Activity it is showing inactive when it filters 'only assigned' option",
+      "Considering the deleted status from NFL API (Components)",
+      "Fix the issue about the reader service that it is not getting scan of activities after 8:00 PM",
+      "Fix Drop down for teams in 'Activity' page for Game Activity",
+      "FIx autocomplete drop down selectors in 'Master Data' section on UI"
+    ]
+  },
+  {
+    "version":"Frontend 1.1.6-rc-202109241600, Backend 1.1.5-rc-202109241600 Reader 1.0.4-rc-202109241600",
+    "description": "Release Candidate",
+    "features": [
+      "Exclude Noisy Tags.",
+      "Mapping of Zones to Game/Practice Reports.",
+      "Fix masterData: When the user wants to create a new equipment the field is displaying the 'Helmet'.",
+      "Fix equipment/history: The history is displaying a field 'guinameList' without data.",
+      "Fix equipment 'last seen' column to areas in VL.",
+      "Fix equipment: The drop downs are coming empty.",
+      "Player: Add player status(Activity/Player).",
+      "Fix equipment: When the user create a new equipment type the name of the equipment is not visible in equipment area."
+    ]
+  },
+  {
+    "version":"Frontend 1.1.5-rc-20210917220, Backend 1.1.4-rc-202109172200",
+    "description": "Release Candidate",
+    "features": [
+      "Snapshot part - Regenerate scan",
+      "Knee brace - Considering prefix 'ZKB' for tags",
+      "Scans page - Scroll not updating data.",
+      "Fix delete process When the user delete an item the id code continue displaying in the filters",
+      "Equipment (Helmets) - Size dropdown box hidden on multiple helmet models (expand Parts section)",
+      "Sessions Scan - Players View - Ability to sort each equipment type so unscanned (0) equipment is grouped together",
+      "Activity Scan - Add a toggle switch that hides all players with no scanned equipment",
+      "Session Scans - Add a notes section column",
+      "Upload Empty file to FTP server in case 'No Activities' found",
+      "Clean up duplicates parts",
+      "In the Player Equipment profile section, change 'History' to 'Equipment History'",
+      "Text Boxes on Web App - Show popup when hovering over a text box to display full text"
+    ]
+  },
+  {
+    "version":"Frontend 1.1.4-rc-20210913220, Backend 1.1.3-rc-202109132200",
+    "description": "Release Candidate",
+    "features": [
+      "Fixed search tag in equipment page",
+      "Fix notification progress bar - on ERROR status. Keeps trying to update this errors doing HTTP request.",
+      "Fix sorting equipment, the sorting is not saved if the user select a player and go back to the players game list in Game",
+      "Fix Master data: some parts area displaying  the equipmet model with the id instead of the name",
+      "Fix Master data: when the user try to create a part for knee brance the application display a error 400 from API",
+      "Fix Master data: when the user create a part with custom parts and after that are deleted the application display a message 'Data Base Conflict' with a error 400",
+      "Fix Equipment table column selector - Select All option is not working well.",
+      "Fix link to see practice or game in notification ",
+      "Equipment Type - 'Knee Brace'",
+      "Team Request - Reordering the Model Year Drop Downs in Reverse Chronological Order (Current Season on Top)",
+      "Team Request - Reorder the Shoulder Pad Size Drop Down List",
+      "Players Page/Practice Report - Change the color of the circle if there are 2 pieces of the same equipment",
+      "Fix Dropdown reordering",
+      "No download automatically file for download all scans",
+      "Fix the progress bar for download manual",
+      "Restrict Team Users (and Admins) editing of Activity Reports"
+    ]
+  },
+  {
+    "version":"Frontend 1.1.3-rc1-202109022200, Backend 1.1.2-rc1-202109022200",
+    "description": "Release Candidate",
+    "features": [
+      "Sort by equipment count (Activity Page)",
+      "Add an indicator on the (Players page)"
+    ]
+  },{
+    "version":"Frontend 1.1.3-rc-202108311600, Backend 1.1.2-rc-202108311600",
+    "description": "Release Candidate",
+    "features": [
+      "Improve validate duplicated tags(Backend and Frontend)",
+      "Fix report club key instead of club id for activity equipment scan, and club inventory",
+      "Regenerate scans for Game Activity"
+    ]
+  },
+  {
+    "version":"Frontend 1.1.2-rc-202108272200, Backend 1.1.1-rc-202108272200, Reader v1.0.3-rc-202108272200",
+    "description": "Release Candidate",
+    "features": [
+      "Validate duplicated tags(Backend and Frontend)",
+      "Fix equipment count in activity page",
+      "Change models Vicis ZERO2 to ZERO2-R for 2021",
+      "Fix report Club tag invetory",
+      "Game 90 minute before(Grace Period)"
+    ]
+  },
+  {
+    "version":"1.1.0-rc-202108182200",
+    "description": "Release Candidate",
+    "features": [
+      "Download scan by day",
+      "Method to regenerate scans edited by user or coming from MC33 device, for overlaping Practices",
+      "Fix duplicate scans in Activity Page"
+    ]
+  },
+  {
+    "version": "1.0.2-rc-202108122200",
+    "description": "Release Candidate",
+    "features": [
+      "Add rebuild scans for practices",
+      "Add buffer time 60 minutes before and after for Practice/Game",
+      "Couch to Player",
+      "Style Number",
+      "Add Status and legend in activity table",
+      "Fix Roster Player in activity"
+    ]
+  },
+  {
+    "version": "1.0.1-rc2-202107262000",
+    "description": "Release Candidate",
+    "features": [
+      "Dynamic columns added in the equipment module, for listing and exporting data.",
+      "Add new link Player Health and Safety Training Videos ",
+      "Search equipment by tag"
+    ]
+  },
+  {
+    "version": "1.0.1-rc-202107092200",
+    "description": "Release Candidate",
+    "features": [
+      "Upgrade Virtual Locker Mobile App.pdf document",
+      "Equipment (Template Images, fix scan ds9908r, Download equipments)",
+      "Configuration (Add button to connect and reconnect the scanner ds9908r)"
+    ]
+  },
+  {
+    "version": "1.0.0-rc-202106301900",
+    "description": "Release Candidate",
+    "features": [
+      "Documents updated.",
+      "Activity and Scans reports modules added.",
+      "Equipment module added. (scan devices to filter table available)",
+      "Player module added.",
+      "Configuration (Master data, User controller, Teams, Devices and Sites) module added."
+    ]
+  }
+]

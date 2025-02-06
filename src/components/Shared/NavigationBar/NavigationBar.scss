@@ -1,0 +1,43 @@
+
+.bar-container {
+  border: 1px solid var(--blue-light);
+  height: auto;
+  margin-bottom: 10px;
+  padding: 0px 5px 0px 0px;
+  overflow: hidden;
+
+  .navigation-bar {
+    text-transform: capitalize;
+    font-family: var(--roboto);
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--blue-dark);
+
+    &-last {
+      text-transform: capitalize;
+      font-family: var(--roboto);
+      font-size: 16px;
+      font-weight: bold;
+      color: var(--green-dark);
+    }
+  }
+
+  .navigation-bar:hover {
+    color: var(--blue-dark);
+  }
+}
+
+.navigationbar-header-configuration {
+  background-color: var(--blue-light);
+  min-width: 180px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .navigation-bar-configuration {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--blue-dark);
+  }
+}

@@ -1,0 +1,50 @@
+.scan-distribution-tooltip {
+  .ant-tooltip-content {
+    .ant-tooltip-inner {
+      color: var(--gray-dark);
+      background-color: var(--white);
+      min-width: 120px;
+      width: auto;
+      min-height: 90px;
+
+      label {
+        color: var(--blue-dark);
+        font-weight: bold;
+      }
+      .scan-data {
+        width: 50px;
+        font-size: 12px;
+        .scan-count {
+          color: var(--blue-dark);
+          font-weight: bold;
+        }
+        .scan-percentage {
+          font-size: 10px;
+          color: var(--blue-antd)
+        }
+      }
+
+      .tooltip-detail {
+        font-size: 12px;
+        display: flex;
+        .scan-count-device {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          .device-img {
+            width: 25px;
+            padding: 0px 4px;
+            text-align: center;
+            img {
+              width: auto;
+              height: 17px;
+            }
+          }
+        }
+      }
+    }
+    .ant-tooltip-arrow:before {
+      background-color: var(--white);
+    }
+  }
+}

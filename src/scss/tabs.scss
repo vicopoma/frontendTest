@@ -1,0 +1,82 @@
+// PLAYER
+.padding-table-player {
+  padding: 0px 0px 0 0px !important;
+}
+
+.ant-tabs-card .ant-tabs-content {
+  width: 100%;
+  height: calc(100vh - 200px);
+  margin-top: -16px;
+  background-color: #E8F0F4;
+}
+
+.ant-tabs-card .ant-tabs-content > .ant-tabs-tabpane {
+  background: #E8F0F4;
+  padding: 16px;
+}
+
+.ant-tabs-card > .ant-tabs-nav::before {
+  display: none;
+}
+
+.ant-tabs-card .ant-tabs-tab {
+  border-color: transparent;
+  background: transparent;
+}
+
+.ant-tabs-card .ant-tabs-tab-active {
+  border-color: #E8F0F4;
+  background: #E8F0F4;
+}
+
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active {
+  background: var(--blue-light) !important;
+  box-shadow: inset 0 -3px 0 #013369;
+  font-weight: 500;
+  color: #013369;
+  border-color: #f0f0f0;
+  border-bottom: 1px solid #fff;
+}
+.ant-tabs-tab-active {
+  background: var(--blue-light) !important;
+  box-shadow: inset 0 -3px 0 #013369;
+  font-weight: 500;
+  color: #013369;
+  border-color: #f0f0f0;
+  border-bottom: 1px solid #fff;
+}
+
+.ant-tabs-tab-btn {
+  color: #013369 !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab {
+  margin: 0;
+  margin-right: 2px;
+  padding: 8px 16px;
+  color: #013369;
+  line-height: 22px;
+  background: #FFF;
+  border: 1px solid #E8F0F4;
+  border-radius: 6px 6px 0 0;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.ant-tabs-tab {
+  margin: 0;
+  margin-right: 2px;
+  padding: 8px 16px;
+  color: #013369;
+  line-height: 22px;
+  background: #FFF;
+  border: 1px solid #E8F0F4;
+  border-radius: 6px 6px 0 0;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab img {
+  margin-right: 5px;
+}

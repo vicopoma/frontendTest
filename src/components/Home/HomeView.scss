@@ -1,0 +1,339 @@
+.home {
+  @keyframes zoomout {
+    0% {
+      background-size: 230vh auto;
+    }
+    100% {
+      background-size: 220vh auto;
+    }
+  }
+  @-webkit-keyframes zoomout {
+    0% {
+      -webkit-background-size: 230vh auto;
+    }
+    100% {
+      -webkit-background-size: 220vh auto;
+    }
+  }
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: url('/images/background-ball-04.jpg');
+  background-size: 220vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: calc(100vh - 64px);
+  animation: zoomout 4s;
+  -webkit-animation: zoomout 4s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+
+  .home-p {
+    transform: translate(-70%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+
+    h1 {
+      font-size: 55px;
+      color: var(--white);
+      font-weight: 200;
+      margin-bottom: 0px;
+    }
+  }
+}
+
+/* responsive small view */
+@media screen and (max-width: 600px) {
+  .home {
+    /*  img {
+       width: 268px;
+     } */
+    .home-p {
+      transform: translate(-41%, -50%);
+      position: absolute;
+      top: 50%;
+      left: 41%;
+
+      h1 {
+        font-size: 38px;
+        color: #fff;
+        font-weight: 200;
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
+
+/*responsive medium view*/
+@media screen and (max-width: 768px) {
+  .home {
+    .home-p {
+      transform: translate(-41%, -50%);
+      position: absolute;
+      top: 50%;
+      left: 41%;
+
+      h1 {
+        font-size: 45px;
+        color: #fff;
+        font-weight: 200;
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
+
+/* responsive large view*/
+@media screen and (min-width: 1024px) {
+  .home {
+    .home-p {
+      transform: translate(-41%, -50%);
+      position: absolute;
+      top: 50%;
+      left: 30%;
+
+      h1 {
+        font-size: 55px;
+        color: var(--white);
+        font-weight: 200;
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
+
+
+/* dashboard styles */
+.height-ds {
+  height: 100%;
+}
+.back_login-dash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  padding: 35px;
+}
+.dashboard {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 0px;
+  background-color: #EDF0F2;
+ 
+  .back_login_img {
+    position: absolute;
+    height: 128vh;
+    right: calc(100vw - 36%);
+    top: calc(100vh - 130%);
+    opacity: 0.05;
+}
+  .dashboard-card {
+    background-color: var(--white);
+    width: 85vw;
+    height: 80vh;
+    border-radius: 2rem;
+    -webkit-box-shadow: 0px 0px 24px -2px rgba(0,0,0,0.23); 
+    box-shadow: 0px 0px 24px -2px rgba(0,0,0,0.23);
+    padding: 40px 45px;
+    z-index: 0;
+    overflow-y: auto;
+  .dash-player {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .dash-player-head {
+      position: absolute;
+      top: 0px;
+      left: -45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .bg-player-head {
+        height: 85px;
+      }
+      .oems-logo {
+        position: absolute;
+        width: 55%;
+      }
+    }
+  }
+  .dash-data {
+    height: 90%;
+    .dash-head-tyequip {
+      border: solid 1px var(--green-dark);
+      border-radius: 7px;
+      background-color: var(--white);
+      margin: 8px 16px;
+      box-sizing: border-box;
+      padding: 8px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 50px;
+      min-width: 200px;
+    .equiptype-icon-dash {
+      display: flex;
+      align-items: center;
+      img {
+        height: 20px;
+        margin: 6px;
+      }
+    }
+    span {
+      font-size: 22px;
+      font-weight: 700;
+    }
+    h2 {
+      color: var(--blue-dark);
+      margin: 0px;
+      }
+    h3 {
+      margin: 0px;
+    }
+    }
+  }
+    .dash-data-model {
+      background-color: var(--white);
+      border: solid 1px #C1CDD9;
+      border-radius: 7px;
+      padding: 8px 28px;
+      margin: 8px 16px;
+      box-sizing: border-box;
+      max-height: 48%;
+      height: 50%;
+      overflow-y: auto;
+    .data-head-dash {
+      display: flex;
+      align-items: center;
+      border-bottom: solid 1px #C1CDD9;
+      padding: 5px 0px 10px 0px;
+      margin-bottom: 8px;
+      h3 {
+        margin: 0px;
+        color: var(--blue-dark);
+      }
+    }  
+    .data-head-dash img {
+      height: 20px;
+      margin: 0px 8px;
+    }
+    }
+    .model-list {
+      height: 100%;
+      max-height: 100%;
+      overflow-y: auto;
+    }
+  }
+
+  .progress-bar-text {
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 0 0 var(--blue-dark);
+  }
+
+  .team-bar {
+    background: #E8F0F4;
+    align-items: center;
+    font-weight: bold;
+    margin: 5px 5px 5px 0px;
+    .color-text {
+      color: #1DAB35;
+    }
+  }
+  .statistics-bar {
+    fill: #479ebe;
+  }
+  .statistics-bar:hover {
+    fill: var(--blue-antd);
+  }
+
+  .statistics-number {
+    color: #8f8f8f;
+    font-size: 0.7rem;
+  }
+
+  .statistics-text {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #7b7b7b;
+  }
+
+  .statistics-tooltip {
+    position: absolute;
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(99, 99, 99, 0.5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(99,99,99, 0.5);
+    box-shadow: 0px 0px 10px 0px rgba(99,99,99, 0.5);
+      /* border-bottom: 6px solid rgb(164, 179, 191); */
+    border-radius: 5px;
+    padding: 3px 7px;
+    text-align: center;
+    color: #0C4D69;
+    font-size: 0.9rem;
+    font-weight: 600;
+   }
+
+  .text-model {
+    padding-top: 3px;
+    font-weight: bold;
+    padding-right: 10px;
+   }
+   .equipment-dashboard:hover {
+    fill: var(--green) !important;
+    opacity: 1 !important;
+    fill-opacity: 0.2 !important;
+    .cleat {
+      fill: var(--green) !important;
+      opacity: 1 !important;
+      fill-opacity: 0.2 !important;
+    }
+   }
+}
+
+// RESPONSIVE MOBILE
+@media (max-width: 575.98px) {
+
+  .dashboard .dashboard-card {
+    background-color: var(--white);
+    width: 85vw;
+    height: 80vh;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 24px -2px rgba(0, 0, 0, 0.23);
+    padding: 10px 10px;
+    z-index: 0;
+    overflow-y: auto;
+}
+.dashboard .dashboard-card .dash-data-model {
+  background-color: var(--white);
+  border: solid 1px #C1CDD9;
+  border-radius: 7px;
+  padding: 8px 15px;
+  margin: 8px 16px;
+  box-sizing: border-box;
+  max-height: 100%;
+  height: auto;
+  overflow-y: auto;
+}
+.dashboard .dashboard-card .dash-player {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard .dashboard-card .dash-player .dash-player-head {
+ display: none;
+}
+.height-ds {
+  height: auto;
+}
+}

@@ -1,0 +1,23 @@
+<svg id="Group_2954" data-name="Group 2954" xmlns="http://www.w3.org/2000/svg" width="26.98" height="27" viewBox="0 0 26.98 27">
+  <g id="model-icon">
+    <g id="Group_2577" data-name="Group 2577" transform="translate(0 14.436)">
+      <path id="Path_3592" data-name="Path 3592" d="M332.778,426.538h-7.144a2.712,2.712,0,0,1-2.709-2.71v-7.145a2.71,2.71,0,0,1,2.709-2.709h7.144a2.711,2.711,0,0,1,2.707,2.709v7.144A2.713,2.713,0,0,1,332.778,426.538Zm-7.144-10.815a.963.963,0,0,0-.962.961v7.144a.961.961,0,0,0,.962.961h7.144a.96.96,0,0,0,.959-.961v-7.145a.962.962,0,0,0-.959-.961Z" transform="translate(-322.925 -413.974)" fill="#013c88"/>
+    </g>
+    <g id="Group_2578" data-name="Group 2578" transform="translate(14.42 14.438)">
+      <path id="Path_3593" data-name="Path 3593" d="M347.069,426.538a6.281,6.281,0,1,1,6.281-6.281A6.28,6.28,0,0,1,347.069,426.538Zm0-10.815a4.533,4.533,0,1,0,4.532,4.534h0a4.538,4.538,0,0,0-4.532-4.533Z" transform="translate(-340.789 -413.977)" fill="#013c88"/>
+    </g>
+    <path id="Path_3594" data-name="Path 3594" d="M337.3,396.571a.963.963,0,0,1,1.667,0l2.688,4.655,2.687,4.654a.964.964,0,0,1-.834,1.444H332.764a.964.964,0,0,1-.834-1.444l2.688-4.654Z" transform="translate(-324.637 -396.09)" fill="#013c88"/>
+    <g id="Group_2579" data-name="Group 2579" transform="translate(15.918 17.325)">
+      <rect id="Rectangle_2960" data-name="Rectangle 2960" width="9.663" height="1.747" fill="#013c88"/>
+    </g>
+    <g id="Group_2580" data-name="Group 2580" transform="translate(15.918 19.845)">
+      <rect id="Rectangle_2961" data-name="Rectangle 2961" width="9.663" height="1.747" fill="#013c88"/>
+    </g>
+    <g id="Group_2581" data-name="Group 2581" transform="translate(15.918 22.448)">
+      <rect id="Rectangle_2962" data-name="Rectangle 2962" width="9.663" height="1.747" fill="#013c88"/>
+    </g>
+    <g id="Group_2582" data-name="Group 2582" transform="translate(0.647 15.405)">
+      <rect id="Rectangle_2963" data-name="Rectangle 2963" width="1.747" height="13.648" transform="translate(0 1.235) rotate(-45)" fill="#013c88"/>
+    </g>
+  </g>
+</svg>

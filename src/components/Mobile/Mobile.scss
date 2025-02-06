@@ -1,0 +1,59 @@
+.download-app-version-home {
+  width: 299px;
+  text-align: right;
+  background-color: #0000008f;
+  padding: 17px;
+  border-radius: 5px;
+  margin-top: 16px;
+
+  .ant-divider-horizontal.ant-divider-with-text {
+    margin: 10px 0px;
+  }
+
+  span {
+    font-size: 14px;
+    color: var(--white);
+  }
+
+  p {
+    color: var(--white);
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px 10px 14px 10px;
+  }
+}
+
+.download-app-version {
+  text-align: center;
+
+  .ant-divider-horizontal.ant-divider-with-text {
+    margin: 10px 0px;
+  }
+
+  span {
+    font-size: 14px;
+    color: var(--blue-dark);
+  }
+
+  p {
+    text-justify: distribute;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0px 10px 14px 10px;
+  }
+}
+
+.version-apk {
+  width: auto;
+  text-align: right;
+  font-weight: 400;
+
+  .font-blue {
+    color: var(--blue-dark);
+  }
+
+  .font-white {
+    color: var(--white);
+  }
+}

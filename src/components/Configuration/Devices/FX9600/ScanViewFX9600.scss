@@ -1,0 +1,195 @@
+.device-fx9600 {
+  .rhombus-container {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    .rhombus {
+      width: 22px;
+      height: 22px;
+      border-radius: 3px;
+      transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .content {
+        transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+    }
+    .connected {
+      background: rgb(121, 185, 121);
+    }
+    .disabled {
+      background: rgb(126, 134, 140);
+    }
+    .disconnected {
+      background: #faa63a;
+    }
+  }
+
+  .title {
+    color: var(--blue-dark);
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .detail-container {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    .title-container {
+      color: var(--green-dark);
+      font-size: 19px;
+      font-weight: 500;
+    }
+    .antenna-card {
+      display: flex;
+      align-items: center;
+      background: var(--blue-light);
+      gap: 10px;
+      margin: 10px;
+      padding-right: 20px;
+      border-radius: 10px;
+      overflow: hidden;
+      .running {
+        height: 110px;
+        width: 25px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        padding: 9px;
+      }
+      .connected {
+        background: rgb(121, 185, 121);
+      }
+      .disabled {
+        background: rgb(126, 134, 140);
+      }
+      .disconnected {
+        background: rgb(250, 166, 58);
+      }
+      .antenna-card-detail {
+        flex-grow: 1;
+        height: 110px;
+        width: auto;
+        margin-top: -15px;
+        margin-left: 4px;
+        .antenna-status {
+          text-transform: capitalize;
+          font-weight: 500;
+          font-size: 15px;
+          text-align: right;
+        }
+        .antenna-status-connected {
+          color: var(--green-dark);
+        }
+        .antenna-status-disabled {
+          color: rgb(126, 134, 140);
+        }
+        .antenna-status-disconnected {
+          color: rgb(250, 166, 58);
+        }
+        .ant-form-item-label {
+          width: 100%;
+          text-align: left;
+        }
+        .label {
+          width: auto;
+          color: var(--blue-dark);
+          font-size: 15px;
+          font-weight: 500;
+        }
+      }
+      
+    }
+    .image-container {
+      border: 1px solid var(--blue-dark);
+      border-style: dashed;
+      width: auto;
+      height: 410px;
+      padding: 20px;
+      margin: 30px 40px;
+      border-radius: 3%;
+      .img-div {
+        width: auto;
+        height: 330px;
+        margin: auto 0px;
+      }
+      img {
+        margin: 0 40px;
+        max-width: 240px;
+        max-height: 310px;
+        position: relative;
+        margin: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      } 
+      .img-container {
+        margin: 0;
+        padding: 0;
+      }
+      .ant-carousel {
+        position: relative;
+        top: 50%;
+        transform: translate(0, -50%);
+        .slick-slider {
+          .slick-slide {
+            display: flex;
+            justify-content:space-around;
+            .close-button {
+              position: relative;
+              color: rgb(253, 89, 89);
+              border-radius: 50%;
+              font-size: 18px;
+              cursor: pointer;
+            }
+          }
+          .slick-track {
+            display:flex;
+            align-items: center;
+          }
+          .slick-list {
+            // height: 310px;
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+      .image-container-dots {
+        height: 7px;
+        position: absolute;
+        margin-bottom: -33px;
+        li {
+          button {
+            background: var(--blue-dark);
+            border-radius: 25%;
+            padding: 0;
+            border: 0;
+            height: 7px;
+          }
+        }
+      }
+    }
+    .btn-container {
+      margin: 10px auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .btn-up-image {
+      margin: 20px auto;
+      background-color: var(--white);
+      border: 1px solid;
+      color: var(--blue-dark);
+      border-radius: 3px;
+      font-weight: 400;
+      font-size: 13px;
+    }
+  }
+}

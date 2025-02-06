@@ -1,0 +1,50 @@
+.not-found-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8f0f4;
+  height: calc(100Vh - 64px);
+
+  .image-background {
+    background-color: white;
+    width: 80Vw;
+    height: auto;
+    border-radius: 3px 40px 3px 40px;
+    padding: 25px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .go-home-button {
+      left: 40%;
+      margin-right: 20px;
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px
+    }
+  }
+}
+
+.backdoor {
+  h4 {
+    color: #1dab35;
+    margin: 15px 0px;
+  }
+}
+
+.backdoor-body {
+  background-color: #e8f0f4;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-bottom: 20px;
+
+  h5 {
+    color: #013369;
+  }
+}

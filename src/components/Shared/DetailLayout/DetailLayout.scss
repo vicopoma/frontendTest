@@ -1,0 +1,21 @@
+.selector {
+  //height: calc(100vh - 64px);
+  display: flex;
+
+  /* Direction of the items, can be row or column */
+  flex-direction: column;
+
+  .header-selector {
+    margin: 20px;
+  }
+
+  .footer-selector {
+    margin: 0 20px 10px 20px;
+    padding: 0 20px 0 20px;
+  }
+
+  .body-selector {
+    flex: 1;
+  }
+}
+

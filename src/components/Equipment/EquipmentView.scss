@@ -1,0 +1,42 @@
+.header-info-assign {
+  background-color: rgb(255 255 255 / 62%);
+  margin: 10px 0px 0px 0px;
+  padding: 0px 0px 0px 16px;
+  border-radius: 3px;
+  width: 100%;
+  height: 40px;
+  min-height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  .bg-assign {
+    display: flex;
+    align-items: center;
+  
+    span {
+      font-size: 14px;
+      color: var(--blue-dark);
+      font-weight: 600;
+      text-align: right;
+    }
+  
+    .bg-assign-team {
+      width: 220px;
+      overflow: hidden;
+  
+      .bg-team {
+        right: -3px;
+        position: absolute;
+        z-index: 1;
+        height: 100%;
+        transform: rotateY(190deg);
+      }
+  
+      .bg-team-icon {
+        z-index: 2;
+        position: relative;
+        margin: 0px 14px 0px 57px;
+      }
+    }
+  } 
+}
+

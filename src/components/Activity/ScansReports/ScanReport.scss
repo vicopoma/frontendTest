@@ -1,0 +1,41 @@
+.drawer-header-activity {
+  margin: -20px 20px 0px 20px !important;
+}
+
+.filters-selector {
+  .ant-select-selection-search-input {
+    margin-top: 17px;
+  }
+
+  .filters-selector-img {
+    margin-right: 8px;
+  }
+
+  span {
+    font-weight: 500;
+    color: var(--blue-dark);
+  }
+}
+
+.filters-switch {
+  margin-top: 21px;
+}
+
+.background-image {
+  position: absolute;
+  z-index: 0;
+  margin-left: 20px;
+}
+
+.extra-cleat-header {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  .extra-cleat-player-info {
+    display: flex;
+    gap: 25px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+}

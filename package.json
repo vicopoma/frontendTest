@@ -1,0 +1,79 @@
+{
+  "group": "com.nvd",
+  "name": "virtual-locker-frontend",
+  "version": "1.16.2-rc",
+  "sourceCompatibility": "1.8",
+  "private": true,
+  "dependencies": {
+    "@microsoft/signalr": "^5.0.3",
+    "@react-pdf-viewer/core": "^2.2.1",
+    "@react-pdf-viewer/default-layout": "^2.2.1",
+    "@react-pdf-viewer/toolbar": "^2.2.1",
+    "@sentry/react": "^6.3.0",
+    "@stomp/stompjs": "^6.0.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/d3": "^7.0.0",
+    "@types/react-beautiful-dnd": "^13.0.0",
+    "@types/yup": "^0.29.1",
+    "antd": "4.2.5",
+    "antd-table-infinity": "^1.1.6",
+    "connected-react-router": "^6.8.0",
+    "d3": "^7.0.3",
+    "formik": "^2.2.3",
+    "jspdf": "^2.3.1",
+    "moment": "^2.26.0",
+    "moment-timezone": "^0.5.33",
+    "pako": "^2.0.2",
+    "pdfjs-dist": "2.5.207",
+    "react": "^16.13.1",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-dom": "^16.13.1",
+    "react-google-login": "^5.1.20",
+    "react-image": "^4.0.3",
+    "react-redux": "^7.2.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-shortcut": "^2.0.9",
+    "react-window": "^1.8.5",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "typescript": "^3.7.5",
+    "yup": "^0.29.1"
+  },
+  "scripts": {
+    "start": "REACT_APP_VERSION=$(node -pe 'require(\"./package.json\").version') sh -ac '. ./.env; react-scripts start'",
+    "build": "REACT_APP_VERSION=$(node -pe 'require(\"./package.json\").version') sh -ac '. ./.env; react-scripts build'",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.10",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.42",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/react-window": "^1.8.2",
+    "sass": "^1.32.8"
+  }
+}

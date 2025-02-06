@@ -1,0 +1,31 @@
+
+.collapsible {
+  background-color: var(--blue-light);
+  color: var(--blue-dark);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.row {
+  cursor: pointer;
+  display: block;
+  padding-left: 20px;
+
+  .col {
+    width: 100%;
+  }
+}
+
+.content {
+  padding: 0px 0px 0px 30px;
+  max-height: 0;
+  max-width: 500px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}

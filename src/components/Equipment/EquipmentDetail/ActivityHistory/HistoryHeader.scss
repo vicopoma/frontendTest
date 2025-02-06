@@ -1,0 +1,43 @@
+.history-section {
+  display: inline-flex;
+  align-items: center;
+  .img-section {
+    margin-right: 8px;
+    min-width: 20px;
+    padding-left: 20px;
+    span {
+      font-size: 16px;
+      color: var(--gray-dark);
+      font-weight: 500;
+      position: relative;
+      left: -15px;
+    }
+  }
+  .team-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--blue-dark);
+    margin-right: 10px;
+  }
+  .activity-count {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--blue-dark);
+    margin-left: 0px;
+    margin-right: 22px;
+    text-align: right;
+    width: 30px;
+  }
+}
+
+.no-data-activity-history {
+  position: absolute;
+  width: 99%;
+  background: white;
+  height: calc(100vh - 350px);
+  img {
+    position: absolute;
+    top: 30%;
+    left: 47%;
+  }
+}

@@ -1,0 +1,17 @@
+@import "src/scss/constants/colors";
+@import "src/scss/commons";
+
+.notification-layout {
+  position: absolute;
+  z-index: 10;
+  top: 70px;
+  right: 30px;
+  min-height: 200px;
+  background-color: var(--white);
+  max-width: 400px;
+
+  .notification-list {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+}

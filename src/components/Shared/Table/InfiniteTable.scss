@@ -1,0 +1,66 @@
+/* general container background tables */
+.layout_back {
+  background-color: var(--blue-light);
+  padding: 0px 15px 0px 15px;
+  // border-radius: 4px 15px 0px 0px;
+  height: calc(100Vh - 132px);
+  position: relative;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.col-infinite-table-filters {
+  width: 180px;
+}
+
+.col-infinite-table-filters-2 {
+  width: 180px;
+}
+
+.col-infinite-table-filters-button {
+  width: 120px;
+}
+
+@media only screen and (max-width: 576px) {
+  .col-infinite-table-filters {
+    width: 50%;
+  }
+  .col-infinite-table-filters-2 {
+    width: 50%;
+  }
+  .col-infinite-table-filters-button {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .col-infinite-table-filters {
+    width: 100%;
+  }
+  .col-infinite-table-filters-2 {
+    width: 50%;
+  }
+  .col-infinite-table-filters-button {
+    width: 100%;
+  }
+}
+
+.input-search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: white;
+  height: auto;
+  min-height: 40px;
+  border-radius: 5px;
+  padding-left: 13px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* loader */
+ .icon-load {
+  .ant-btn-loading-icon .anticon {
+    padding-right: 0px;
+  }
+ }
