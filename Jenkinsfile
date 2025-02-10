@@ -17,6 +17,10 @@ pipeline {
                         echo "NEW JENKINSFILE"
                         echo ${USERNAME} 
                         echo ${PASSWORD}
+                        echo $USERNAME
+                        echo $PASSWORD
+                        echo $REPOSITORY
+                        echo $ZEBRA_REPOSITORY
                         
                     '''
                 }
