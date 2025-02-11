@@ -20,6 +20,7 @@ pipeline {
                         echo $USERNAME
                         echo $PASSWORD
                         echo $REPOSITORY
+                        echo "TODO LO DE ZEBRA"
                         echo $ZEBRA_REPOSITORY
                         echo $ZEBRA_USERNAME
                         echo $ZEBRA_PASSWORD
