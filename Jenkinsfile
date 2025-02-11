@@ -26,6 +26,18 @@ pipeline {
                         echo $ZEBRA_PASSWORD
                         
                     '''
+                    withCredentials([usernamePassword(credentialsId: 'github_zebra_repository_virtual_locker', usernameVariable: 'ZEBRA_USERNAME', passwordVariable: 'ZEBRA_PASSWORD')]) {
+                    sh '''
+                      #!/bin/bash
+                      echo "APARTADO CREDENCIALES ZEBRA"
+                      echo $ZEBRA_REPOSITORY
+                      echo $ZEBRA_USERNAME
+                      echo $ZEBRA_PASSWORD
+                      echo "-------------"
+                      echo $USERNAME
+                      echo $PASSWORD
+                    '''
+                    }
                 }
             }
         }
