@@ -24,6 +24,7 @@ pipeline {
                         echo $ZEBRA_REPOSITORY
                         echo $ZEBRA_USERNAME
                         echo $ZEBRA_PASSWORD
+                        echo $VL_REGISTRY
                         
                     '''
                     withCredentials([usernamePassword(credentialsId: 'github_zebra_repository_virtual_locker', usernameVariable: 'ZEBRA_USERNAME', passwordVariable: 'ZEBRA_PASSWORD')]) {
@@ -36,6 +37,7 @@ pipeline {
                       echo "-------------"
                       echo $USERNAME
                       echo $PASSWORD
+                      echo $VL_REGISTRY
                     '''
                     }
                 }
