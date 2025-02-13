@@ -14,7 +14,7 @@ pipeline {
                 withCredentials([usernamePassword(credentialsId: 'gitlab_repository_virtual_locker', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
                     sh '''
                         #!/bin/bash
-                        echo "NEW JENKINSFILE"
+                        echo "nuevo JENKINSFILE"
                         echo ${USERNAME} 
                         echo ${PASSWORD}
                         echo $USERNAME
@@ -25,21 +25,19 @@ pipeline {
                         echo $ZEBRA_USERNAME
                         echo $ZEBRA_PASSWORD
                         echo $VL_REGISTRY
-                        
+                        echo $BRANCH_NAME
+                        if [  -d "$INVENTORY_PATH/${BRANCH_NAME}" ] && [ -f "$INVENTORY_PATH/${BRANCH_NAME}/inventory" ]; then
+                            FRONTEND_VERSION=$BRANCH_NAME-$FRONTEND_VERSION
+                            sed -i "s|vl_frontend_version=.*$|vl_frontend_version=$FRONTEND_VERSION|g" $INVENTORY_PATH/${BRANCH_NAME}/inventory
+                            docker login $VL_REGISTRY -u ${USERNAME} -p ${PASSWORD}
+                            docker build --target frontend-application-build -t frontend-application-build .
+                            docker build -t $VL_REGISTRY/virtual-locker/virtual-locker-frontend:$FRONTEND_VERSION .
+                            docker push $VL_REGISTRY/virtual-locker/virtual-locker-frontend:$FRONTEND_VERSION
+                            docker rmi -f $VL_REGISTRY/virtual-locker/virtual-locker-frontend:$FRONTEND_VERSION
+                        else
+                            echo "Not inventory found"
+                        fi
                     '''
-                    withCredentials([usernamePassword(credentialsId: 'github_zebra_repository_virtual_locker', usernameVariable: 'ZEBRA_USERNAME', passwordVariable: 'ZEBRA_PASSWORD')]) {
-                    sh '''
-                      #!/bin/bash
-                      echo "APARTADO CREDENCIALES ZEBRA"
-                      echo $ZEBRA_REPOSITORY
-                      echo $ZEBRA_USERNAME
-                      echo $ZEBRA_PASSWORD
-                      echo "-------------"
-                      echo $USERNAME
-                      echo $PASSWORD
-                      echo $VL_REGISTRY
-                    '''
-                    }
                 }
             }
         }
@@ -48,8 +46,12 @@ pipeline {
             steps{
                 sh  '''
                         #!/bin/bash
-                        echo "Deploy STAGE VICO"
-                        ${BRANCH_NAME}       
+                        if [  -d "$INVENTORY_PATH/${BRANCH_NAME}" ] && [ -f "$INVENTORY_PATH/${BRANCH_NAME}/inventory" ]; then
+                            ansible-playbook -i $INVENTORY_PATH/${BRANCH_NAME}/inventory -l webservers $RUN_PATH/vl_run_frontend_playbook.yml --flush-cache
+                            docker image prune -f > /dev/null && echo "clean images" || echo "clean images without some errors"
+                        else
+                            echo "Not inventory found"
+                        fi
                     '''
             }
         }
